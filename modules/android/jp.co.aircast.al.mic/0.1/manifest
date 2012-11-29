@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+apiversion: 2
+description: My module
+author: Nobuhiro Saito
+license: Specify your license
+copyright: Copyright (c) 2012 by AirCast
+
+
+# these should not be edited
+name: mic
+moduleid: jp.co.aircast.al.mic
+guid: fe5d823d-acd9-492d-8f41-f6fbfa6e4ecf
+platform: android
+minsdk: 2.1.2.GA

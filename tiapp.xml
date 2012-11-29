@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">p3l5Nv475P2Q2TdStQ2llpxVv5PJ2bmR</property>
+    <property name="acs-oauth-key-production" type="string">42pukVqS9yQr2bQ0BVVjQedaYKA6P6Oc</property>
+    <property name="acs-api-key-production" type="string">RzP3pwfYBpp16ZL0rZKdRj3S0QNARgnb</property>
+    <property name="acs-oauth-secret-development" type="string">MyS5tgSC9RgIqmRV718lMGYy4rlAlBEo</property>
+    <property name="acs-oauth-key-development" type="string">XjBDcVMVpo3nnKaP1TsJjYmJwRgWvwhP</property>
+    <property name="acs-api-key-development" type="string">TVkpbHRQcK4sN9MAMYkSnmQExvkidBH0</property>
+    <deployment-targets>
+        <target device="mobileweb">false</target>
+        <target device="iphone">true</target>
+        <target device="ipad">true</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.4.GA</sdk-version>
+    <id>jp.co.aircast.saito.alDev</id>
+    <name>AL_Dev</name>
+    <version>0.20121129.00</version>
+    <publisher>AirCast</publisher>
+    <url>http://</url>
+    <description>not specified</description>
+    <copyright>2012 AIRLINE</copyright>
+    <icon>al_appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>69af24b4-fcf1-4edf-bcbe-b9243f0e1123</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <manifest android:installLocation="auto" android:versionCode="1" android:versionName="0.20121120.00">
+            <application>
+                <activity android:label="@string/app_name"
+                    android:name="org.linphone.LinphoneLauncherActivity" android:theme="@android:style/Theme.NoTitleBar"/>
+                <activity android:label="@string/app_name"
+                    android:launchMode="singleTask"
+                    android:name="org.linphone.LinphoneActivity" android:theme="@android:style/Theme.NoTitleBar">
+                    <!-- android:alwaysRetainTaskState="true" clearTaskOnLaunch="false"-->
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                    </intent-filter>
+                </activity>
+                <activity
+                    android:name="org.linphone.IncomingCallActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                    </intent-filter>
+                </activity>
+                <activity android:name="org.linphone.UriPickerActivity"
+                    android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                    </intent-filter>
+                </activity>
+                <activity
+                    android:name="org.linphone.UriPickerActivity$DialerActivity" android:theme="@android:style/Theme.NoTitleBar">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                    </intent-filter>
+                </activity>
+                <activity android:name="org.linphone.FirstLoginActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                    </intent-filter>
+                </activity>
+                <!--                    android:launchMode="singleTask"-->
+                <activity
+                    android:configChanges="keyboardHidden|orientation"
+                    android:name="org.linphone.IncallActivity" android:theme="@android:style/Theme.NoTitleBar">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                    </intent-filter>
+                </activity>
+                <activity
+                    android:name="org.linphone.ConferenceDetailsActivity"
+                    android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                    </intent-filter>
+                </activity>
+                <activity android:name="org.linphone.LinphonePreferencesSIPAccountActivity"/>
+                <activity android:name="org.linphone.LinphonePreferencesActivity">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                    </intent-filter>
+                </activity>
+                <activity
+                    android:configChanges="keyboardHidden|orientation" android:name="org.linphone.DialerActivity">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                    </intent-filter>
+                </activity>
+                <activity android:configChanges="orientation"
+                    android:name="org.linphone.VideoCallActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                    </intent-filter>
+                </activity>
+                <activity android:launchMode="singleTop" android:name="ContactPickerActivityNew">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                    </intent-filter>
+                </activity>
+                <activity android:launchMode="singleTop" android:name="ContactPickerActivityOld">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                    </intent-filter>
+                </activity>
+                <activity android:name="org.linphone.HistoryActivity">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                    </intent-filter>
+                </activity>
+                <activity android:name="org.linphone.AboutActivity">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                    </intent-filter>
+                </activity>
+                <service android:name="org.linphone.LinphoneService"/>
+                <receiver android:name="org.linphone.NetworkManager">
+                    <intent-filter>
+                        <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                    </intent-filter>
+                </receiver>
+                <receiver android:name="org.linphone.BootReceiver">
+                    <intent-filter>
+                        <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                    </intent-filter>
+                </receiver>
+                <receiver android:name="org.linphone.PhoneStateChangedReceiver">
+                    <intent-filter>
+                        <action android:name="android.intent.action.PHONE_STATE"/>
+                    </intent-filter>
+                </receiver>
+                <activity android:enabled="false"
+                    android:label="Conf test"
+                    android:name="org.linphone.TestConferenceActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                        <category android:name="android.intent.category.LAUNCHER"/>
+                    </intent-filter>
+                </activity>
+                <activity android:enabled="false"
+                    android:label="Hello World" android:name="org.linphone.core.tutorials.TutorialHelloWorldActivity">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                        <category android:name="android.intent.category.LAUNCHER"/>
+                    </intent-filter>
+                </activity>
+                <activity android:enabled="false"
+                    android:label="Registration" android:name="org.linphone.core.tutorials.TutorialRegistrationActivity">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                        <category android:name="android.intent.category.LAUNCHER"/>
+                    </intent-filter>
+                </activity>
+                <activity android:enabled="false"
+                    android:label="Buddy status" android:name="org.linphone.core.tutorials.TutorialBuddyStatusActivity">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                        <category android:name="android.intent.category.LAUNCHER"/>
+                    </intent-filter>
+                </activity>
+                <activity android:enabled="false"
+                    android:label="Chat Room" android:name="org.linphone.core.tutorials.TutorialChatRoomActivity">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                        <category android:name="android.intent.category.LAUNCHER"/>
+                    </intent-filter>
+                </activity>
+                <activity android:enabled="false"
+                    android:label="Ring+Echo" android:name="org.mediastreamer2.test.Ring">
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN"/>
+                        <category android:name="android.intent.category.LAUNCHER"/>
+                    </intent-filter>
+                </activity>
+                <activity android:name="jp.co.aircast.module.MakeIntentActivity"/>
+            </application>
+            <!-- for SIPDROID -->
+            <uses-permission android:name="android.permission.INTERNET"/>
+            <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+            <uses-permission android:name="android.permission.READ_CONTACTS"/>
+            <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+            <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+            <uses-permission android:name="android.permission.WAKE_LOCK"/>
+            <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+            <uses-permission android:name="android.permission.CALL_PHONE"/>
+            <!-- Needed to allow Linphone to install on tablets, since android.permission.CALL_PHONE implies android.hardware.telephony is required -->
+            <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+            <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+            <uses-permission android:name="android.permission.VIBRATE"/>
+            <uses-permission android:name="android.permission.CAMERA"/>
+            <uses-permission android:name="android.permission.READ_LOGS"/>
+            <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+        </manifest>
+    </android>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="iphone" version="0.1">me.takus.ti.voip</module>
+        <module platform="android" version="0.1">jp.co.aircast.module</module>
+        <module platform="android" version="0.1">jp.co.aircast.al.mic</module>
+    </modules>
+    <statusbar-hidden>true</statusbar-hidden>
+    <navbar-hidden>true</navbar-hidden>
+    <fullscreen>true</fullscreen>
+</ti:app>

@@ -1,0 +1,719 @@
+Logfile initialized
+[INFO] logfile = /Users/takaoike/AL_Dev/build.log
+[DEBUG] /Users/takaoike/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/builder.py install AL_Dev /Users/develop/Library/android-sdk-macosx /Users/takaoike/AL_Dev jp.co.aircast.saito.alDev 7
+[INFO] Titanium SDK version: 2.1.4 (11/09/12 12:46 51f2c64)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.038607 seconds on emulator to get ready
+[DEBUG] jp.co.aircast.saito.alDev installed? False
+[INFO] Copying CommonJS modules...
+[INFO] Copying project resources..
+[INFO] Detected change in tiapp.xml, or assets deleted. Forcing full re-build...
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/android/al_appicon.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/al_appicon.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/android/appicon.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/appicon.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/android/default.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/default.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/comm/comm.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/comm/comm.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/comm/connect.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/comm/connect.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/event/aircatcher.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/event/aircatcher.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/event/akb0000.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/event/akb0000.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/event/akb0000prof.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/event/akb0000prof.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/friend/friendlist.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/friend/friendlist.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/main/common.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/main/common.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/main/debugfunc.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/main/debugfunc.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/main/define.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/main/define.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/main/event.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/main/event.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/main/file.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/main/file.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/main/getContacts.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/main/getContacts.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/main/gps.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/main/gps.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/main/indicator.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/main/indicator.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/main/login.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/main/login.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/main/main.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/main/main.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/main/masterData.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/main/masterData.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/main/prof.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/main/prof.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/main/robby.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/main/robby.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/main/sendmsg.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/main/sendmsg.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/main/setting.BAK => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/main/setting.BAK
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/main/setting.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/main/setting.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/main/signup.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/main/signup.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/main/talk.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/main/talk.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/main/talklog.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/main/talklog.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/main/version.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/main/version.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/main/work.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/main/work.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/map/map.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/map/map.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/map/sound_remote.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/map/sound_remote.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/talk/kaiwa.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/talk/kaiwa.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/talk/resvmsg.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/talk/resvmsg.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/talk/room.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/talk/room.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/talk/voiceTalk.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/talk/voiceTalk.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/ui/contact.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/ui/contact.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/ui/filterwin.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/ui/filterwin.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/ui/list.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/ui/list.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/ui/multiselect.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/ui/multiselect.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/ui/recwin.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/ui/recwin.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/ui/sendwin.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/ui/sendwin.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/ui/stampselect.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/ui/stampselect.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/ui/talkaddlist.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/ui/talkaddlist.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app/ui/talkopt.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app/ui/talkopt.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/app.js => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/app.js
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/appcelerator_small.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/appcelerator_small.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/bg.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/bg.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/corkboard.jpg => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/corkboard.jpg
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/custom_tableview/blue_drink.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/custom_tableview/blue_drink.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/custom_tableview/blue_edit.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/custom_tableview/blue_edit.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/custom_tableview/blue_email.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/custom_tableview/blue_email.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/custom_tableview/commentButton.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/custom_tableview/commentButton.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/custom_tableview/eventsButton.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/custom_tableview/eventsButton.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/custom_tableview/notificationBadge.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/custom_tableview/notificationBadge.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/custom_tableview/notificationUnreadBadge.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/custom_tableview/notificationUnreadBadge.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/dummy/416562.jpeg => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/dummy/416562.jpeg
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/dummy/432467.jpeg => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/dummy/432467.jpeg
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/dummy/433068.jpeg => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/dummy/433068.jpeg
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/dummy/444095.jpeg => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/dummy/444095.jpeg
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/dummy/444101.jpeg => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/dummy/444101.jpeg
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/dummy/444102.jpeg => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/dummy/444102.jpeg
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/dummy/444110.jpeg => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/dummy/444110.jpeg
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/dummy/444112.jpeg => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/dummy/444112.jpeg
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/dummy/444113.jpeg => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/dummy/444113.jpeg
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/dummy/478684.jpeg => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/dummy/478684.jpeg
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/dummy/478686.jpeg => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/dummy/478686.jpeg
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/dummy/478690.jpeg => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/dummy/478690.jpeg
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/dummy/478702.jpeg => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/dummy/478702.jpeg
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/dummy/478705.jpeg => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/dummy/478705.jpeg
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/dummy/478709.jpeg => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/dummy/478709.jpeg
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/groupedview/addDefault.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/groupedview/addDefault.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/groupedview/minusDefault.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/groupedview/minusDefault.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/icon/char_denpen.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/icon/char_denpen.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/icon/char_onatsu.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/icon/char_onatsu.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/icon/char_oyaji.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/icon/char_oyaji.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/icon/char_punio.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/icon/char_punio.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/icon/char_riku.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/icon/char_riku.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/icon/char_saki.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/icon/char_saki.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/icon/char_suzuki.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/icon/char_suzuki.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/icon/char_tsuru_1.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/icon/char_tsuru_1.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/icon/char_yankee.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/icon/char_yankee.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/icon/char_yen.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/icon/char_yen.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/icon/user.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/icon/user.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/KS_nav_ui.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/KS_nav_ui.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/KS_nav_views.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/KS_nav_views.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/accept.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/accept.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/add.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/add.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/attachment.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/attachment.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/back.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/back.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/brush.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/brush.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/calculator.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/calculator.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/calendar.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/calendar.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/chart.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/chart.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/comment.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/comment.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/comments.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/comments.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/cut.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/cut.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/document.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/document.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/download.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/download.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/email.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/email.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/folder.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/folder.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/heart.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/heart.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/help.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/help.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/home.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/home.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/info.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/info.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/link.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/link.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/lock.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/lock.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/mail.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/mail.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/map.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/map.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/music.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/music.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/network.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/network.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/next.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/next.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/phone.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/phone.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/print.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/print.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/recycle_bin.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/recycle_bin.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/remove.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/remove.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/rss.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/rss.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/search.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/search.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/security.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/security.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/settings.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/settings.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/shopping_cart.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/shopping_cart.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/star.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/star.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/tools.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/tools.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/upload.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/upload.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/user.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/user.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFemale/warning.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFemale/warning.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/accept.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/accept.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/add.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/add.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/attachment.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/attachment.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/back.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/back.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/brush.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/brush.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/calculator.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/calculator.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/calendar.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/calendar.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/chart.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/chart.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/comment.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/comment.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/comments.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/comments.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/cut.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/cut.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/document.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/document.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/download.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/download.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/email.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/email.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/folder.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/folder.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/heart.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/heart.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/help.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/help.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/home.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/home.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/info.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/info.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/link.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/link.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/lock.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/lock.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/mail.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/mail.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/map.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/map.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/music.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/music.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/network.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/network.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/next.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/next.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/phone.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/phone.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/print.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/print.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/recycle_bin.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/recycle_bin.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/remove.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/remove.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/rss.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/rss.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/search.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/search.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/security.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/security.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/settings.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/settings.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/shopping_cart.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/shopping_cart.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/star.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/star.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/tools.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/tools.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/upload.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/upload.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/user.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/user.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconFree/warning.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconFree/warning.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/accept.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/accept.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/add.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/add.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/attachment.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/attachment.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/back.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/back.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/brush.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/brush.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/calculator.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/calculator.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/calendar.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/calendar.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/chart.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/chart.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/comment.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/comment.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/comments.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/comments.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/cut.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/cut.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/document.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/document.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/download.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/download.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/email.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/email.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/folder.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/folder.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/heart.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/heart.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/help.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/help.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/home.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/home.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/info.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/info.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/link.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/link.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/lock.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/lock.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/mail.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/mail.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/map.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/map.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/music.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/music.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/network.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/network.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/next.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/next.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/phone.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/phone.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/print.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/print.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/recycle_bin.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/recycle_bin.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/remove.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/remove.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/rss.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/rss.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/search.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/search.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/security.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/security.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/settings.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/settings.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/shopping_cart.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/shopping_cart.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/star.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/star.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/tools.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/tools.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/upload.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/upload.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/user.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/user.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/mapIconMale/warning.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/mapIconMale/warning.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/pin/c1.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/pin/c1.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/pin/c10.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/pin/c10.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/pin/c12.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/pin/c12.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/pin/c16.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/pin/c16.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/pin/c18.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/pin/c18.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/pin/c19.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/pin/c19.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/pin/c2.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/pin/c2.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/pin/c20.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/pin/c20.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/pin/c21.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/pin/c21.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/pin/c4.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/pin/c4.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/pin/c5.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/pin/c5.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/pin/c7.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/pin/c7.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/pin/f1.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/pin/f1.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/pin/f12.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/pin/f12.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/send.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/send.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/send_selected.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/send_selected.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/tabs/KS_nav_mashup.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/tabs/KS_nav_mashup.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/tabs/KS_nav_phone.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/tabs/KS_nav_phone.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/tabs/KS_nav_platform.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/tabs/KS_nav_platform.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/tabs/KS_nav_ui.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/tabs/KS_nav_ui.png
+[TRACE] COPYING CREATED FILE: /Users/takaoike/AL_Dev/Resources/images/tabs/KS_nav_views.png => /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/images/tabs/KS_nav_views.png
+[TRACE] Generating Java Classes
+[DEBUG] Processing Android resource drawables
+[INFO] Copying platform-specific files for 'modulesample' module
+[DEBUG] app stylesheet => /Users/takaoike/AL_Dev/build/android/gen/jp/co/aircast/saito/alDev/ApplicationStylesheet.java
+[DEBUG] copying app icon: /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/al_appicon.png
+[DEBUG] generating theme.xml
+[DEBUG] found drawable-long-land-hdpi splash screen at /Users/takaoike/AL_Dev/Resources/android/images/res-long-land-hdpi/default.png
+[DEBUG] copying /Users/takaoike/AL_Dev/Resources/android/images/res-long-land-hdpi/default.png splash screen to /Users/takaoike/AL_Dev/build/android/res/drawable-long-land-hdpi/background.png
+[DEBUG] found drawable-long-land-ldpi splash screen at /Users/takaoike/AL_Dev/Resources/android/images/res-long-land-ldpi/default.png
+[DEBUG] copying /Users/takaoike/AL_Dev/Resources/android/images/res-long-land-ldpi/default.png splash screen to /Users/takaoike/AL_Dev/build/android/res/drawable-long-land-ldpi/background.png
+[DEBUG] found drawable-long-port-hdpi splash screen at /Users/takaoike/AL_Dev/Resources/android/images/res-long-port-hdpi/default.png
+[DEBUG] copying /Users/takaoike/AL_Dev/Resources/android/images/res-long-port-hdpi/default.png splash screen to /Users/takaoike/AL_Dev/build/android/res/drawable-long-port-hdpi/background.png
+[DEBUG] found drawable-long-port-ldpi splash screen at /Users/takaoike/AL_Dev/Resources/android/images/res-long-port-ldpi/default.png
+[DEBUG] copying /Users/takaoike/AL_Dev/Resources/android/images/res-long-port-ldpi/default.png splash screen to /Users/takaoike/AL_Dev/build/android/res/drawable-long-port-ldpi/background.png
+[DEBUG] found drawable-notlong-land-hdpi splash screen at /Users/takaoike/AL_Dev/Resources/android/images/res-notlong-land-hdpi/default.png
+[DEBUG] copying /Users/takaoike/AL_Dev/Resources/android/images/res-notlong-land-hdpi/default.png splash screen to /Users/takaoike/AL_Dev/build/android/res/drawable-notlong-land-hdpi/background.png
+[DEBUG] found drawable-notlong-land-ldpi splash screen at /Users/takaoike/AL_Dev/Resources/android/images/res-notlong-land-ldpi/default.png
+[DEBUG] copying /Users/takaoike/AL_Dev/Resources/android/images/res-notlong-land-ldpi/default.png splash screen to /Users/takaoike/AL_Dev/build/android/res/drawable-notlong-land-ldpi/background.png
+[DEBUG] found drawable-notlong-land-mdpi splash screen at /Users/takaoike/AL_Dev/Resources/android/images/res-notlong-land-mdpi/default.png
+[DEBUG] copying /Users/takaoike/AL_Dev/Resources/android/images/res-notlong-land-mdpi/default.png splash screen to /Users/takaoike/AL_Dev/build/android/res/drawable-notlong-land-mdpi/background.png
+[DEBUG] found drawable-notlong-port-hdpi splash screen at /Users/takaoike/AL_Dev/Resources/android/images/res-notlong-port-hdpi/default.png
+[DEBUG] copying /Users/takaoike/AL_Dev/Resources/android/images/res-notlong-port-hdpi/default.png splash screen to /Users/takaoike/AL_Dev/build/android/res/drawable-notlong-port-hdpi/background.png
+[DEBUG] found drawable-notlong-port-ldpi splash screen at /Users/takaoike/AL_Dev/Resources/android/images/res-notlong-port-ldpi/default.png
+[DEBUG] copying /Users/takaoike/AL_Dev/Resources/android/images/res-notlong-port-ldpi/default.png splash screen to /Users/takaoike/AL_Dev/build/android/res/drawable-notlong-port-ldpi/background.png
+[DEBUG] found drawable-notlong-port-mdpi splash screen at /Users/takaoike/AL_Dev/Resources/android/images/res-notlong-port-mdpi/default.png
+[DEBUG] copying /Users/takaoike/AL_Dev/Resources/android/images/res-notlong-port-mdpi/default.png splash screen to /Users/takaoike/AL_Dev/build/android/res/drawable-notlong-port-mdpi/background.png
+[DEBUG] found splash screen at /Users/takaoike/AL_Dev/build/android/bin/assets/Resources/default.png
+[TRACE] Writing out AndroidManifest.xml
+[DEBUG] adding /Users/takaoike/AL_Dev/build/android/gen/jp/co/aircast/saito/alDev/Al_devActivity.java to javac build list
+[DEBUG] adding /Users/takaoike/AL_Dev/build/android/gen/jp/co/aircast/saito/alDev/Al_devAppInfo.java to javac build list
+[DEBUG] adding /Users/takaoike/AL_Dev/build/android/gen/jp/co/aircast/saito/alDev/Al_devApplication.java to javac build list
+[DEBUG] adding /Users/takaoike/AL_Dev/build/android/gen/jp/co/aircast/saito/alDev/ApplicationStylesheet.java to javac build list
+[DEBUG] adding /Users/takaoike/AL_Dev/build/android/gen/jp/co/aircast/saito/alDev/R.java to javac build list
+[DEBUG] Building Java Sources: "/Users/takaoike/AL_Dev/build/android/gen/jp/co/aircast/saito/alDev/Al_devActivity.java" "/Users/takaoike/AL_Dev/build/android/gen/jp/co/aircast/saito/alDev/Al_devAppInfo.java" "/Users/takaoike/AL_Dev/build/android/gen/jp/co/aircast/saito/alDev/Al_devApplication.java" "/Users/takaoike/AL_Dev/build/android/gen/jp/co/aircast/saito/alDev/ApplicationStylesheet.java" "/Users/takaoike/AL_Dev/build/android/gen/jp/co/aircast/saito/alDev/R.java"
+[INFO] Compiling Android Resources... This could take some time
+[DEBUG] Android classes.dex built
+[DEBUG] creating unsigned apk: /Users/takaoike/AL_Dev/build/android/bin/app-unsigned.apk
+[DEBUG] from resource zip => assets/Resources/app/comm/comm.js
+[DEBUG] from resource zip => assets/Resources/app/comm/connect.js
+[DEBUG] from resource zip => assets/Resources/app/event/aircatcher.js
+[DEBUG] from resource zip => assets/Resources/app/event/akb0000.js
+[DEBUG] from resource zip => assets/Resources/app/event/akb0000prof.js
+[DEBUG] from resource zip => assets/Resources/app/friend/friendlist.js
+[DEBUG] from resource zip => assets/Resources/app/main/common.js
+[DEBUG] from resource zip => assets/Resources/app/main/debugfunc.js
+[DEBUG] from resource zip => assets/Resources/app/main/define.js
+[DEBUG] from resource zip => assets/Resources/app/main/event.js
+[DEBUG] from resource zip => assets/Resources/app/main/file.js
+[DEBUG] from resource zip => assets/Resources/app/main/getContacts.js
+[DEBUG] from resource zip => assets/Resources/app/main/gps.js
+[DEBUG] from resource zip => assets/Resources/app/main/indicator.js
+[DEBUG] from resource zip => assets/Resources/app/main/login.js
+[DEBUG] from resource zip => assets/Resources/app/main/main.js
+[DEBUG] from resource zip => assets/Resources/app/main/masterData.js
+[DEBUG] from resource zip => assets/Resources/app/main/prof.js
+[DEBUG] from resource zip => assets/Resources/app/main/robby.js
+[DEBUG] from resource zip => assets/Resources/app/main/sendmsg.js
+[DEBUG] from resource zip => assets/Resources/app/main/setting.BAK
+[DEBUG] from resource zip => assets/Resources/app/main/setting.js
+[DEBUG] from resource zip => assets/Resources/app/main/signup.js
+[DEBUG] from resource zip => assets/Resources/app/main/talk.js
+[DEBUG] from resource zip => assets/Resources/app/main/talklog.js
+[DEBUG] from resource zip => assets/Resources/app/main/version.js
+[DEBUG] from resource zip => assets/Resources/app/main/work.js
+[DEBUG] from resource zip => assets/Resources/app/map/map.js
+[DEBUG] from resource zip => assets/Resources/app/map/sound_remote.js
+[DEBUG] from resource zip => assets/Resources/app/talk/kaiwa.js
+[DEBUG] from resource zip => assets/Resources/app/talk/resvmsg.js
+[DEBUG] from resource zip => assets/Resources/app/talk/room.js
+[DEBUG] from resource zip => assets/Resources/app/talk/voiceTalk.js
+[DEBUG] from resource zip => assets/Resources/app/ui/contact.js
+[DEBUG] from resource zip => assets/Resources/app/ui/filterwin.js
+[DEBUG] from resource zip => assets/Resources/app/ui/list.js
+[DEBUG] from resource zip => assets/Resources/app/ui/multiselect.js
+[DEBUG] from resource zip => assets/Resources/app/ui/recwin.js
+[DEBUG] from resource zip => assets/Resources/app/ui/sendwin.js
+[DEBUG] from resource zip => assets/Resources/app/ui/stampselect.js
+[DEBUG] from resource zip => assets/Resources/app/ui/talkaddlist.js
+[DEBUG] from resource zip => assets/Resources/app/ui/talkopt.js
+[DEBUG] from resource zip => assets/Resources/images/custom_tableview/blue_drink.png
+[DEBUG] from resource zip => assets/Resources/images/custom_tableview/blue_edit.png
+[DEBUG] from resource zip => assets/Resources/images/custom_tableview/blue_email.png
+[DEBUG] from resource zip => assets/Resources/images/custom_tableview/commentButton.png
+[DEBUG] from resource zip => assets/Resources/images/custom_tableview/eventsButton.png
+[DEBUG] from resource zip => assets/Resources/images/custom_tableview/notificationBadge.png
+[DEBUG] from resource zip => assets/Resources/images/custom_tableview/notificationUnreadBadge.png
+[DEBUG] from resource zip => assets/Resources/images/dummy/416562.jpeg
+[DEBUG] from resource zip => assets/Resources/images/dummy/432467.jpeg
+[DEBUG] from resource zip => assets/Resources/images/dummy/433068.jpeg
+[DEBUG] from resource zip => assets/Resources/images/dummy/444095.jpeg
+[DEBUG] from resource zip => assets/Resources/images/dummy/444101.jpeg
+[DEBUG] from resource zip => assets/Resources/images/dummy/444102.jpeg
+[DEBUG] from resource zip => assets/Resources/images/dummy/444110.jpeg
+[DEBUG] from resource zip => assets/Resources/images/dummy/444112.jpeg
+[DEBUG] from resource zip => assets/Resources/images/dummy/444113.jpeg
+[DEBUG] from resource zip => assets/Resources/images/dummy/478684.jpeg
+[DEBUG] from resource zip => assets/Resources/images/dummy/478686.jpeg
+[DEBUG] from resource zip => assets/Resources/images/dummy/478690.jpeg
+[DEBUG] from resource zip => assets/Resources/images/dummy/478702.jpeg
+[DEBUG] from resource zip => assets/Resources/images/dummy/478705.jpeg
+[DEBUG] from resource zip => assets/Resources/images/dummy/478709.jpeg
+[DEBUG] from resource zip => assets/Resources/images/groupedview/addDefault.png
+[DEBUG] from resource zip => assets/Resources/images/groupedview/minusDefault.png
+[DEBUG] from resource zip => assets/Resources/images/icon/char_denpen.png
+[DEBUG] from resource zip => assets/Resources/images/icon/char_onatsu.png
+[DEBUG] from resource zip => assets/Resources/images/icon/char_oyaji.png
+[DEBUG] from resource zip => assets/Resources/images/icon/char_punio.png
+[DEBUG] from resource zip => assets/Resources/images/icon/char_riku.png
+[DEBUG] from resource zip => assets/Resources/images/icon/char_saki.png
+[DEBUG] from resource zip => assets/Resources/images/icon/char_suzuki.png
+[DEBUG] from resource zip => assets/Resources/images/icon/char_tsuru_1.png
+[DEBUG] from resource zip => assets/Resources/images/icon/char_yankee.png
+[DEBUG] from resource zip => assets/Resources/images/icon/char_yen.png
+[DEBUG] from resource zip => assets/Resources/images/icon/user.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/accept.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/add.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/attachment.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/back.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/brush.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/calculator.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/calendar.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/chart.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/comment.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/comments.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/cut.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/document.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/download.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/email.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/folder.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/heart.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/help.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/home.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/info.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/link.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/lock.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/mail.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/map.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/music.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/network.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/next.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/phone.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/print.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/recycle_bin.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/remove.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/rss.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/search.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/security.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/settings.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/shopping_cart.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/star.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/tools.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/upload.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/user.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFemale/warning.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/accept.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/add.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/attachment.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/back.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/brush.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/calculator.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/calendar.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/chart.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/comment.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/comments.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/cut.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/document.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/download.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/email.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/folder.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/heart.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/help.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/home.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/info.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/link.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/lock.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/mail.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/map.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/music.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/network.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/next.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/phone.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/print.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/recycle_bin.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/remove.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/rss.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/search.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/security.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/settings.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/shopping_cart.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/star.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/tools.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/upload.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/user.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconFree/warning.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/accept.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/add.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/attachment.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/back.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/brush.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/calculator.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/calendar.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/chart.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/comment.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/comments.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/cut.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/document.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/download.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/email.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/folder.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/heart.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/help.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/home.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/info.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/link.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/lock.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/mail.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/map.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/music.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/network.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/next.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/phone.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/print.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/recycle_bin.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/remove.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/rss.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/search.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/security.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/settings.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/shopping_cart.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/star.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/tools.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/upload.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/user.png
+[DEBUG] from resource zip => assets/Resources/images/mapIconMale/warning.png
+[DEBUG] from resource zip => assets/Resources/images/pin/c1.png
+[DEBUG] from resource zip => assets/Resources/images/pin/c10.png
+[DEBUG] from resource zip => assets/Resources/images/pin/c12.png
+[DEBUG] from resource zip => assets/Resources/images/pin/c16.png
+[DEBUG] from resource zip => assets/Resources/images/pin/c18.png
+[DEBUG] from resource zip => assets/Resources/images/pin/c19.png
+[DEBUG] from resource zip => assets/Resources/images/pin/c2.png
+[DEBUG] from resource zip => assets/Resources/images/pin/c20.png
+[DEBUG] from resource zip => assets/Resources/images/pin/c21.png
+[DEBUG] from resource zip => assets/Resources/images/pin/c4.png
+[DEBUG] from resource zip => assets/Resources/images/pin/c5.png
+[DEBUG] from resource zip => assets/Resources/images/pin/c7.png
+[DEBUG] from resource zip => assets/Resources/images/pin/f1.png
+[DEBUG] from resource zip => assets/Resources/images/pin/f12.png
+[DEBUG] from resource zip => assets/Resources/images/tabs/KS_nav_mashup.png
+[DEBUG] from resource zip => assets/Resources/images/tabs/KS_nav_phone.png
+[DEBUG] from resource zip => assets/Resources/images/tabs/KS_nav_platform.png
+[DEBUG] from resource zip => assets/Resources/images/tabs/KS_nav_ui.png
+[DEBUG] from resource zip => assets/Resources/images/tabs/KS_nav_views.png
+[DEBUG] from resource zip => assets/Resources/images/KS_nav_ui.png
+[DEBUG] from resource zip => assets/Resources/images/KS_nav_views.png
+[DEBUG] from resource zip => assets/Resources/images/appcelerator_small.png
+[DEBUG] from resource zip => assets/Resources/images/bg.png
+[DEBUG] from resource zip => assets/Resources/images/corkboard.jpg
+[DEBUG] from resource zip => assets/Resources/images/send.png
+[DEBUG] from resource zip => assets/Resources/images/send_selected.png
+[DEBUG] from resource zip => assets/Resources/al_appicon.png
+[DEBUG] from resource zip => assets/Resources/app.js
+[DEBUG] from resource zip => assets/Resources/appicon.png
+[DEBUG] from resource zip => assets/Resources/default.png
+[DEBUG] from resource zip => assets/app.json
+[DEBUG] from resource zip => assets/index.json
+[DEBUG] from resource zip => assets/tiapp.xml
+[DEBUG] from resource zip => res/drawable/appicon.png
+[DEBUG] from resource zip => res/drawable/background.png
+[DEBUG] from resource zip => res/drawable/clavier_bg.xml
+[DEBUG] from resource zip => res/drawable/clavier_bg_darkgrey.png
+[DEBUG] from resource zip => res/drawable/clavier_bg_grey.png
+[DEBUG] from resource zip => res/drawable/clavier_bg_orange.png
+[DEBUG] from resource zip => res/drawable/conf_callee_active_bg.xml
+[DEBUG] from resource zip => res/drawable/conf_callee_bg.xml
+[DEBUG] from resource zip => res/drawable/conf_callee_incoming_bg.xml
+[DEBUG] from resource zip => res/drawable/conf_callee_inconf_bg.xml
+[DEBUG] from resource zip => res/drawable/conf_callee_pressed_bg.xml
+[DEBUG] from resource zip => res/drawable/conf_callee_selected_bg.xml
+[DEBUG] from resource zip => res/drawable/conf_callee_selector_active.xml
+[DEBUG] from resource zip => res/drawable/conf_callee_selector_incoming.xml
+[DEBUG] from resource zip => res/drawable/conf_callee_selector_inconf.xml
+[DEBUG] from resource zip => res/drawable/conf_callee_selector_normal.xml
+[DEBUG] from resource zip => res/drawable/conf_details.png
+[DEBUG] from resource zip => res/drawable/conf_maybe_secured.png
+[DEBUG] from resource zip => res/drawable/conf_merge.png
+[DEBUG] from resource zip => res/drawable/conf_merge_all.png
+[DEBUG] from resource zip => res/drawable/conf_not_secured.png
+[DEBUG] from resource zip => res/drawable/conf_pause.png
+[DEBUG] from resource zip => res/drawable/conf_permute.png
+[DEBUG] from resource zip => res/drawable/conf_remove.png
+[DEBUG] from resource zip => res/drawable/conf_resume.png
+[DEBUG] from resource zip => res/drawable/conf_secured.png
+[DEBUG] from resource zip => res/drawable/conf_speaking.png
+[DEBUG] from resource zip => res/drawable/conf_status_inconf.png
+[DEBUG] from resource zip => res/drawable/conf_status_paused.png
+[DEBUG] from resource zip => res/drawable/conf_terminate.png
+[DEBUG] from resource zip => res/drawable/conf_transfer.png
+[DEBUG] from resource zip => res/drawable/conf_unhook.png
+[DEBUG] from resource zip => res/drawable/conf_video.png
+[DEBUG] from resource zip => res/drawable/contact_orange.png
+[DEBUG] from resource zip => res/drawable/dialer_orange.png
+[DEBUG] from resource zip => res/drawable/history_orange.png
+[DEBUG] from resource zip => res/drawable/in_call.png
+[DEBUG] from resource zip => res/drawable/in_call_mini.png
+[DEBUG] from resource zip => res/drawable/incall_add.png
+[DEBUG] from resource zip => res/drawable/incall_add_small.png
+[DEBUG] from resource zip => res/drawable/incall_back.png
+[DEBUG] from resource zip => res/drawable/incall_dialpad.png
+[DEBUG] from resource zip => res/drawable/incall_merge.png
+[DEBUG] from resource zip => res/drawable/incall_micro.png
+[DEBUG] from resource zip => res/drawable/incall_micro_inverse.png
+[DEBUG] from resource zip => res/drawable/incall_pause.png
+[DEBUG] from resource zip => res/drawable/incall_pause_inverse.png
+[DEBUG] from resource zip => res/drawable/incall_speaker.png
+[DEBUG] from resource zip => res/drawable/incall_speaker_inverse.png
+[DEBUG] from resource zip => res/drawable/jog_tab_bar_left_answer.xml
+[DEBUG] from resource zip => res/drawable/jog_tab_bar_left_end_confirm_green.9.png
+[DEBUG] from resource zip => res/drawable/jog_tab_bar_left_end_normal.9.png
+[DEBUG] from resource zip => res/drawable/jog_tab_bar_left_end_pressed.9.png
+[DEBUG] from resource zip => res/drawable/jog_tab_bar_right_decline.xml
+[DEBUG] from resource zip => res/drawable/jog_tab_bar_right_end_confirm_red.9.png
+[DEBUG] from resource zip => res/drawable/jog_tab_bar_right_end_normal.9.png
+[DEBUG] from resource zip => res/drawable/jog_tab_bar_right_end_pressed.9.png
+[DEBUG] from resource zip => res/drawable/jog_tab_left_answer.xml
+[DEBUG] from resource zip => res/drawable/jog_tab_left_confirm_green.png
+[DEBUG] from resource zip => res/drawable/jog_tab_left_normal.png
+[DEBUG] from resource zip => res/drawable/jog_tab_left_pressed.png
+[DEBUG] from resource zip => res/drawable/jog_tab_right_confirm_red.png
+[DEBUG] from resource zip => res/drawable/jog_tab_right_decline.xml
+[DEBUG] from resource zip => res/drawable/jog_tab_right_normal.png
+[DEBUG] from resource zip => res/drawable/jog_tab_right_pressed.png
+[DEBUG] from resource zip => res/drawable/jog_tab_target_green.png
+[DEBUG] from resource zip => res/drawable/jog_tab_target_red.png
+[DEBUG] from resource zip => res/drawable/linphone_banner.png
+[DEBUG] from resource zip => res/drawable/logo_linphone_57x57.png
+[DEBUG] from resource zip => res/drawable/mic_active.png
+[DEBUG] from resource zip => res/drawable/mic_muted.png
+[DEBUG] from resource zip => res/drawable/mini_stopcall_red.png
+[DEBUG] from resource zip => res/drawable/notok.png
+[DEBUG] from resource zip => res/drawable/numpad.png
+[DEBUG] from resource zip => res/drawable/numpad_big.png
+[DEBUG] from resource zip => res/drawable/ok.png
+[DEBUG] from resource zip => res/drawable/out_call.png
+[DEBUG] from resource zip => res/drawable/out_call_mini.png
+[DEBUG] from resource zip => res/drawable/picker_transfer.png
+[DEBUG] from resource zip => res/drawable/resume_blue.png
+[DEBUG] from resource zip => res/drawable/speaker_32_off.png
+[DEBUG] from resource zip => res/drawable/speaker_32_on.png
+[DEBUG] from resource zip => res/drawable/startcall_green.png
+[DEBUG] from resource zip => res/drawable/startvideo_green.png
+[DEBUG] from resource zip => res/drawable/stat_sys_signal_0.png
+[DEBUG] from resource zip => res/drawable/stat_sys_signal_1.png
+[DEBUG] from resource zip => res/drawable/stat_sys_signal_2.png
+[DEBUG] from resource zip => res/drawable/stat_sys_signal_3.png
+[DEBUG] from resource zip => res/drawable/stat_sys_signal_4.png
+[DEBUG] from resource zip => res/drawable/status_green.png
+[DEBUG] from resource zip => res/drawable/status_level.xml
+[DEBUG] from resource zip => res/drawable/status_offline.png
+[DEBUG] from resource zip => res/drawable/status_orange.png
+[DEBUG] from resource zip => res/drawable/status_red.png
+[DEBUG] from resource zip => res/drawable/stopcall_red.png
+[DEBUG] from resource zip => res/drawable/unknown_person.png
+[DEBUG] from resource zip => res/drawable/video_active.png
+[DEBUG] from resource zip => res/drawable/video_muted.png
+[DEBUG] from resource zip => res/layout/about.xml
+[DEBUG] from resource zip => res/layout/accounts.xml
+[DEBUG] from resource zip => res/layout/conf_callee.xml
+[DEBUG] from resource zip => res/layout/conf_callee_older_devices.xml
+[DEBUG] from resource zip => res/layout/conf_choices_dialog.xml
+[DEBUG] from resource zip => res/layout/conf_details_participant_choices_dialog.xml
+[DEBUG] from resource zip => res/layout/conference_details_layout.xml
+[DEBUG] from resource zip => res/layout/contact_picker.xml
+[DEBUG] from resource zip => res/layout/dialer.xml
+[DEBUG] from resource zip => res/layout/first_login_view.xml
+[DEBUG] from resource zip => res/layout/hello_world.xml
+[DEBUG] from resource zip => res/layout/hidden.xml
+[DEBUG] from resource zip => res/layout/history_cell.xml
+[DEBUG] from resource zip => res/layout/incall_layout.xml
+[DEBUG] from resource zip => res/layout/incoming.xml
+[DEBUG] from resource zip => res/layout/incoming_call.xml
+[DEBUG] from resource zip => res/layout/launcher.xml
+[DEBUG] from resource zip => res/layout/main.xml
+[DEBUG] from resource zip => res/layout/numpad.xml
+[DEBUG] from resource zip => res/layout/ring.xml
+[DEBUG] from resource zip => res/layout/simplified_dialer.xml
+[DEBUG] from resource zip => res/layout/titanium_tabgroup.xml
+[DEBUG] from resource zip => res/layout/uri_picker.xml
+[DEBUG] from resource zip => res/layout/videocall.xml
+[DEBUG] from resource zip => res/layout/wizard.xml
+[DEBUG] from resource zip => res/layout/wizard_confirm.xml
+[DEBUG] from resource zip => res/menu/history_activity_menu.xml
+[DEBUG] from resource zip => res/menu/linphone_activity_menu.xml
+[DEBUG] from resource zip => res/menu/videocall_activity_menu.xml
+[DEBUG] from resource zip => res/raw/linphonerc
+[DEBUG] from resource zip => res/raw/oldphone_mono.wav
+[DEBUG] from resource zip => res/raw/ringback.wav
+[DEBUG] from resource zip => res/raw/rootca.pem
+[DEBUG] from resource zip => res/raw/toy_mono.wav
+[DEBUG] from resource zip => res/xml/account_preferences.xml
+[DEBUG] from resource zip => res/xml/preferences.xml
+[DEBUG] from resource zip => AndroidManifest.xml
+[DEBUG] from resource zip => resources.arsc
+[DEBUG] from resource zip => res/drawable-hdpi/jog_tab_bar_left_end_confirm_green.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/jog_tab_bar_left_end_normal.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/jog_tab_bar_left_end_pressed.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/jog_tab_bar_right_end_confirm_red.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/jog_tab_bar_right_end_normal.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/jog_tab_bar_right_end_pressed.9.png
+[DEBUG] from resource zip => res/drawable-hdpi/jog_tab_left_confirm_green.png
+[DEBUG] from resource zip => res/drawable-hdpi/jog_tab_left_normal.png
+[DEBUG] from resource zip => res/drawable-hdpi/jog_tab_left_pressed.png
+[DEBUG] from resource zip => res/drawable-hdpi/jog_tab_right_confirm_red.png
+[DEBUG] from resource zip => res/drawable-hdpi/jog_tab_right_normal.png
+[DEBUG] from resource zip => res/drawable-hdpi/jog_tab_right_pressed.png
+[DEBUG] from resource zip => res/drawable-hdpi/jog_tab_target_green.png
+[DEBUG] from resource zip => res/drawable-hdpi/jog_tab_target_red.png
+[DEBUG] from resource zip => res/layout-land/dialer.xml
+[DEBUG] from resource zip => res/layout-land/videocall.xml
+[DEBUG] from resource zip => res/drawable-long-land-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-long-land-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-long-port-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-long-port-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-land-mdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-hdpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-ldpi/background.png
+[DEBUG] from resource zip => res/drawable-notlong-port-mdpi/background.png
+[DEBUG] from resource zip => res/layout-xlarge/dialer.xml
+[DEBUG] from resource zip => res/layout-xlarge/incall_layout.xml
+[DEBUG] from resource zip => res/layout-xlarge/videocall.xml
+[DEBUG] from resource zip => res/raw-xlarge/linphonerc
+[DEBUG] from JAR /Users/takaoike/AL_Dev/modules/android/jp.co.aircast.module/0.1/modulesample.jar => assets/value/audio.xml
+[DEBUG] from JAR /Users/takaoike/AL_Dev/modules/android/jp.co.aircast.module/0.1/modulesample.jar => assets/value/video.xml
+[DEBUG] from JAR /Users/takaoike/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/build.properties
+[DEBUG] from JAR /Users/takaoike/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/background.png
+[DEBUG] from JAR /Users/takaoike/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
+[DEBUG] from JAR /Users/takaoike/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
+[DEBUG] from JAR /Users/takaoike/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
+[DEBUG] from JAR /Users/takaoike/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more.png
+[DEBUG] from JAR /Users/takaoike/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_18.png
+[DEBUG] from JAR /Users/takaoike/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_48.png
+[DEBUG] from JAR /Users/takaoike/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
+[DEBUG] from JAR /Users/takaoike/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
+[DEBUG] from JAR /Users/takaoike/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
+[DEBUG] from JAR /Users/takaoike/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/default_icon.png
+[DEBUG] from JAR /Users/takaoike/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
+[DEBUG] from JAR /Users/takaoike/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
+[DEBUG] from JAR /Users/takaoike/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
+[DEBUG] from JAR /Users/takaoike/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
+[DEBUG] from JAR /Users/takaoike/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/polling.js
+[DEBUG] from JAR /Users/takaoike/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/polling.min.js
+[DEBUG] from JAR /Users/takaoike/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/thirdparty.jar => org/apache/Commons-NOTICE.txt
+[DEBUG] from JAR /Users/takaoike/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/thirdparty.jar => org/apache/HttpComponents-NOTICE.txt
+[DEBUG] from JAR /Users/takaoike/Library/Application Support/Titanium/mobilesdk/osx/2.1.4.GA/android/thirdparty.jar => org/apache/mime4j-NOTICE.txt
+[DEBUG] installing native lib: /Users/takaoike/AL_Dev/modules/android/jp.co.aircast.module/0.1/libs/armeabi/libjp.co.aircast.module.so
+[DEBUG] installing native lib: /Users/takaoike/AL_Dev/modules/android/jp.co.aircast.module/0.1/libs/armeabi/liblinphonearmv5.so
+[DEBUG] installing native lib: /Users/takaoike/AL_Dev/modules/android/jp.co.aircast.module/0.1/libs/armeabi-v7a/libavcodec.so
+[DEBUG] installing native lib: /Users/takaoike/AL_Dev/modules/android/jp.co.aircast.module/0.1/libs/armeabi-v7a/libavcodecnoneon.so
+[DEBUG] installing native lib: /Users/takaoike/AL_Dev/modules/android/jp.co.aircast.module/0.1/libs/armeabi-v7a/libavcore.so
+[DEBUG] installing native lib: /Users/takaoike/AL_Dev/modules/android/jp.co.aircast.module/0.1/libs/armeabi-v7a/libavutil.so
+[DEBUG] installing native lib: /Users/takaoike/AL_Dev/modules/android/jp.co.aircast.module/0.1/libs/armeabi-v7a/libjp.co.aircast.module.so
+[DEBUG] installing native lib: /Users/takaoike/AL_Dev/modules/android/jp.co.aircast.module/0.1/libs/armeabi-v7a/liblincrypto.so
+[DEBUG] installing native lib: /Users/takaoike/AL_Dev/modules/android/jp.co.aircast.module/0.1/libs/armeabi-v7a/liblinphone.so
+[DEBUG] installing native lib: /Users/takaoike/AL_Dev/modules/android/jp.co.aircast.module/0.1/libs/armeabi-v7a/liblinphonenoneon.so
+[DEBUG] installing native lib: /Users/takaoike/AL_Dev/modules/android/jp.co.aircast.module/0.1/libs/armeabi-v7a/liblinssl.so
+[DEBUG] installing native lib: /Users/takaoike/AL_Dev/modules/android/jp.co.aircast.module/0.1/libs/armeabi-v7a/libsrtp.so
+[DEBUG] installing native lib: /Users/takaoike/AL_Dev/modules/android/jp.co.aircast.module/0.1/libs/armeabi-v7a/libswscale.so
+[DEBUG] installing native lib: /Users/takaoike/AL_Dev/modules/android/jp.co.aircast.module/0.1/libs/x86/libjp.co.aircast.module.so
+[DEBUG] installing native lib: /Users/takaoike/AL_Dev/modules/android/jp.co.aircast.al.mic/0.1/libs/armeabi/libjp.co.aircast.al.mic.so
+[DEBUG] installing native lib: /Users/takaoike/AL_Dev/modules/android/jp.co.aircast.al.mic/0.1/libs/armeabi-v7a/libjp.co.aircast.al.mic.so
+[DEBUG] installing native lib: /Users/takaoike/AL_Dev/modules/android/jp.co.aircast.al.mic/0.1/libs/x86/libjp.co.aircast.al.mic.so
+[DEBUG] installing native SDK libs
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.038917 seconds on emulator to get ready
+[INFO] Installing application on device
+[INFO] Application installed. Launch from drawer on Home Screen
